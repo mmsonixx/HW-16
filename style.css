@@ -1,13 +1,9 @@
-html {
-    margin: 0;
-    padding: 0;
-}
 .bg-box {
-    width: 1900px;
-    height: 946px;
-    background-color: green;
-    background-size: 400px 400px, 300px 300px;
-    background-position: bottom, top;
-     background-repeat: repeat-x;
-    background-image: url("https://www.freeiconspng.com/uploads/grass-png-images-pictures-transparent-28.png"), url("​https://vignette.wikia.nocookie.net/mashaandthebear/images/e/e0/Ёжик.png/revision/latest?cb=20180209130328&path-prefix=ru​");
+  background: url("./img/pole-zelen-trava-dom-derevya.webp") no-repeat center,
+    url("./img/lamp.webp") repeat-x top / 3%,
+    url("./img/grass.webp") repeat-x bottom / 15%,
+    url("./img/hedgehog.webp") repeat-y left / 2%,
+    url("./img/donut.webp") repeat-y right / 3%;
+  background-color: green;
+  height: 940px;
 }
